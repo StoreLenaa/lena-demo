@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>THÔNG TIN VỀ LANA</title>
+    <!-- box icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- styles  -->
+    <link rel="stylesheet" href="./CSS/Ve-lana.css">
+</head>
+<body>
+    <nav>
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./Images/lana3.png" height="125" width="145" alt="" id="siteLogo">
+            </div>
+        </div> 
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                // Find the site logo by its id
+                var siteLogo = document.getElementById('siteLogo');
+            
+                // Add a click event listener to the logo
+                siteLogo.addEventListener('click', function() {
+                    // Redirect to the homepage
+                    window.location.href = 'index.php';
+                });
+            });
+            </script>
+            <div class="search-account-container">
+                <div class="search-box">
+                    <button class="btn-search"><i class="fas fa-search"></i></button>
+                    <input type="text" class="input-search" placeholder="Tìm Kiếm...">
+                </div>
+                 <!-- CART ICON  -->
+                 <i class='bx bx-shopping-bag' id="cart-icon"></i>
+                 <div class="cart">
+                     <h2 class="cart-title">Giỏ Hàng</h2>
+                     <!-- CONTENT  -->
+                     <div class="cart-content">
+                     </div>
+                     <!-- TOTAL   -->
+                     <div class="total">
+                         <div class="total-title">Tổng Tiền</div>
+                         <div class="total-price">0đ</div>
+                     </div>
+                     <!-- BUY BUTTON  -->
+                     <button type="button" class="btn-buy">Thanh Toán Ngay</button>
+                     <!-- CART CLOSE  -->
+                     <i class='bx bx-x' id="cart-close"></i>
+                 </div>
+                 <script src="./JS/Ao.js"></script>
+            <div class="accountContainer">
+                <img src="./Images/Account.png" width="35" height="32" alt="Login" class="accountIcon">
+                <div class="loginOptions">
+                    <a href="../DO_AN_WEB/login/login.php" class="loginLink">Đăng nhập</a>
+                    <a href="../DO_AN_WEB/register/register.php" class="registerLink">Đăng ký</a>
+                </div>
+            </div>
+        </div> 
+        <div class="navBottom">
+            <a href="Ao.html" class="menuItem"><h2>Áo</h2></a>
+            <a href="Quan.html" class="menuItem"><h2>Quần</h2></a>
+            <a href="Giay.html" class="menuItem"><h2>Giày</h2></a>
+            <a href="Balo.html" class="menuItem"><h2>Balo</h2></a>
+            <a href="Phukien.html" class="menuItem"><h2>Phụ Kiện</h2></a>
+            <a href="Ve-lana.html" class="menuItem"><h2>Về Lana</h2></a>
+            <a href="../DO_AN_WEB/lichsugiaodich/lichsugiaodich.php"  class="menuItem"><h2> Lịch sử giao dịch</h2></a>
+        </div>
+    </nav>
+        <h1>VỀ LANA - THƯƠNG HIỆU THỜI TRANG DÀNH CHO GIỚI TRẺ</h1>
+    <main>
+        <section>
+            <h2>WHO WE ARE</h2>
+            <p>Là một trong những thương hiệu thời trang được thành lập vào giữa năm 2023, LANA nay đã trở thành một thương hiệu quen 
+                thuộc đối với các bạn trẻ. Với định hướng là một thương hiệu cung cấp các sản phẩm thời trang trẻ trung, cá tính nhưng 
+                vẫn duy trì sự cân bằng hoàn hảo giữa giá cả và chất lượng, đã tạo nên sự nổi bật của LANA trong thị trường thời trang 
+                Việt Nam.</p>
+            <img src="./Images/gioithieu4.webp" alt="1" class="small-image">
+        </section>
+        <section>
+            <h2>WHAT WE HAVE</h2>
+            <p>Với đội ngũ nhân viên trẻ trung, năng động và tâm huyết, LANA luôn cố gắng thay đổi và học hỏi hằng ngày nhằm bắt kịp 
+                những xu hướng thời trang mới nhất. Những thiết kế của LANA luôn chứa đựng sự sáng tạo dựa trên những hình tượng nghệ 
+                thuật, hay đôi khi là những hình ảnh bình thường trong đời sống. Từ đó tạo ra những sản phẩm mang màu sắc cá tính riêng  
+                hoàn toàn khác biệt.</p>
+            <img src="./Images/gioithieu3.webp" alt="2" class="small-image">
+        </section>
+        <section>
+            <h2>CHẤT LƯỢNG SẢN PHẨM </h2>
+            <p>LANA không chỉ thu hút bởi những thiết kế trẻ trung, năng động, bộc lộ rõ cá tính thời trang, mà còn mang đến cho người dùng trải nghiệm chất lượng áo tuyệt vời.
+                Gây ấn tượng bởi sự tỉ mỉ trong việc chọn nguyên liệu, cùng với sự quan tâm chu đáo tới trải nghiệm khách hàng.
+                LANA luôn tin rằng chất lượng sản phẩm của mình đủ làm hài lòng bất kỳ khách hàng nào dù khó tính nhất.
+                </p>
+                <img src="./Images/gioithieu5.webp" alt="3" class="small-image">
+                <section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-menu">
+                <h3>DỊCH VỤ KHÁCH HÀNG</h3>
+                <ul>
+                    <li><a href="Ve-lana.html">Chất liệu sản phẩm</a></li>
+                    <li><a href="Ve-lana.html">Câu hỏi thường gặp</a></li>
+                    <li><a href="Ve-lana.html">Chính sách đổi trả</a></li>
+                    <li><a href="Ve-lana.html">Chính sách bảo mật</a></li>
+                    <li><a href="Ve-lana.html">Chính sách giao hàng</a></li>
+                    <li><a href="Ve-lana.html">Điều khoản dịch vụ</a></li>
+                    <li><a href="Ve-lana.html">Hướng dẫn Mua hàng &amp; Hướng dẫn Bảo quản</a></li>
+                    <li><a href="Ve-lana.html">Hướng dẫn chọn size</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-menu">
+                <h3>DANH MỤC SẢN PHẨM</h3>
+                <ul>
+                    <li><a href="/collections/all">Tất cả sản phẩm</a></li>
+                    <li><a href="/collections/ao">Áo</a></li>
+                    <li><a href="/collections/quan">Quần</a></li>
+                    <li><a href="/collections/ba-lo">Ba lô</a></li>
+                    <li><a href="/collections/phu-kien">Phụ kiện</a></li>
+                    <li><a href="../DO_AN_WEB/lichsugiaodich/lichsugiaodich.php" >Lịch sử giao dịch </a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <p>Địa chỉ: 497, P16, Quận Gò Vấp, TP.HCM</p>
+                <p>Số điện thoại: <a href="tel:0775571158">0775571158</a></p>
+                <p>Email: <a href="mailto:lanaofficial.vn">lanaofficial.vn</a></p>
+                <a href="https://www.facebook.com/lanaofficial.vn" target="_blank" title="Theo dõi Facebook LANA"><img src="./Images/facebook.png" width="40" height="40" alt="facebook"></a>
+                <a href="https://zalo.me/g/ordqrg369" target="_blank" title="Theo dõi Zalo LANA"><img src="./Images/zalo.jpg" width="40" height="40" alt="zalo"></a>
+                <a href="https://www.instagram.com/lanaofficial.vn/" target="_blank" title="Theo dõi instagram LANA"><img src="./Images/instagram.png" width="40" height="40" alt="zalo"></a>
+        </div>
+            </div>
+        </div>
+    </footer>
+    <button id="myBtn" title="Lên đầu trang">
+        <img src='./Images/Button1.png' title='lên đầu trang' width='50px'/></button>
+    <script>
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+     
+    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    document.getElementById("myBtn").style.display = "block";
+    } else {
+    document.getElementById("myBtn").style.display = "none";
+    }
+    }
+     
+    document.getElementById('myBtn').addEventListener("click", function(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    });
+    </script>
+    

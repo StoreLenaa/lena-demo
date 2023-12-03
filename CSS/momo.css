@@ -1,0 +1,47 @@
+body {
+    background-image: url(https://i.pinimg.com/564x/98/7d/43/987d4333b0e6bf36ff12b4e82755aadc.jpg);
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    background-image: url(https://i.pinimg.com/564x/71/c6/b0/71c6b0e088a04dc7c4b2b4e34d96b5e5.jpg);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#image-container {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-top: 20px;
+}
+
+img {
+    width: 25%; /* Hình ảnh sẽ chiếm toàn bộ chiều ngang của container */
+    height: 25%; /* Hình ảnh sẽ chiếm toàn bộ chiều dọc của container */
+    object-fit: cover; /* Hiển thị hình ảnh không bị méo, giữ kích thước tỷ lệ khung hình */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #0a0a0a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #bc9d34;
+        }

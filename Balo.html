@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>LANA - BALO</title>
+    <!-- box icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- styles  -->
+    <link rel="stylesheet" href="./CSS/Balo.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./Images/lana3.png" height="125" width="145" alt="" id="siteLogo">
+            </div>
+        </div> 
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                // Find the site logo by its id
+                var siteLogo = document.getElementById('siteLogo');
+            
+                // Add a click event listener to the logo
+                siteLogo.addEventListener('click', function() {
+                    // Redirect to the homepage
+                    window.location.href = 'index.php';
+                });
+            });
+            </script>
+            <div class="search-account-container">
+                <div class="search-box">
+                    <button class="btn-search"><i class="fas fa-search"></i></button>
+                    <input type="text" class="input-search" placeholder="Tìm Kiếm...">
+                </div>
+                 <!-- CART ICON  -->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <div class="cart">
+                <h2 class="cart-title">Giỏ Hàng</h2>
+                <!-- CONTENT  -->
+                <div class="cart-content">
+                </div>
+                <!-- TOTAL   -->
+                <div class="total">
+                    <div class="total-title">Tổng Tiền</div>
+                    <div class="total-price">0đ</div>
+                </div>
+                <!-- BUY BUTTON  -->
+                <button type="button" class="btn-buy">Thanh Toán Ngay</button>
+                <!-- CART CLOSE  -->
+                <i class='bx bx-x' id="cart-close"></i>
+            </div>
+            <div class="accountContainer">
+                <img src="./Images/Account.png" width="35" height="32" alt="Login" class="accountIcon">
+                <div class="loginOptions">
+                    <a href="../DO_AN_WEB/login/login.php" class="loginLink">Đăng nhập</a>
+                    <a href="../DO_AN_WEB/register/register.php" class="registerLink">Đăng ký</a>
+                </div>
+            </div>
+        </div>
+        <div class="navBottom">
+            <a href="Ao.html" class="menuItem"><h2>Áo</h2></a>
+            <a href="Quan.html" class="menuItem"><h2>Quần</h2></a>
+            <a href="Giay.html" class="menuItem"><h2>Giày</h2></a>
+            <a href="Balo.html" class="menuItem"><h2>Balo</h2></a>
+            <a href="Phukien.html" class="menuItem"><h2>Phụ Kiện</h2></a>
+            <a href="Ve-lana.html" class="menuItem"><h2>Về Lana</h2></a>
+            <a href="../DO_AN_WEB/lichsugiaodich/lichsugiaodich.php" class="menuItem"><h2> Lịch sử giao dịch</h2></a>
+        </div>
+    </nav>
+    </header>
+     <!-- SHOP SECTION  -->
+     <section class="shop container">
+        <h2 class="section-title">DANH SÁCH SẢN PHẨM</h2>
+        <h1 class="section-title">BAGS</h1>
+        <!-- CONTENT  -->
+        <div class="shop-content">
+            <!-- BOX 1 -->
+            <div class="product-box">
+                <img src="./Images/Balo1.avif" alt="" class="product-img">
+                <h2 class="product-title">Christopher MM</h2>
+                <span class="product-price">40.000.000<sup>đ</sup></span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 2 -->
+            <div class="product-box">
+                <img src="./Images/Balo2.avif" alt="" class="product-img">
+                <h2 class="product-title">Keepall Bandoulière </h2>
+                <span class="product-price">36.000.000<sup>đ</sup></span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 3 -->
+            <div class="product-box">
+                <img src="./Images/Balo3.avif" alt="" class="product-img">
+                <h2 class="product-title">Christopher PM</h2>
+                <span class="product-price">2.249.000<sup>đ</sup></span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 4 -->
+            <div class="product-box">
+                <img src="./Images/Balo4.avif" alt="" class="product-img">
+                <h2 class="product-title">Dauphine MM</h2>
+                <span class="product-price">10.100.000<sup>đ</sup></span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 5 -->
+            <div class="product-box">
+                <img src="./Images/Balo5.avif" alt="" class="product-img">
+                <h2 class="product-title">Discovery Backpack PM</h2>
+                <span class="product-price">6.200.000<sup>đ</sup></span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 6 -->
+            <div class="product-box">
+                <img src="./Images/Balo6.avif" alt="" class="product-img">
+                <h2 class="product-title">Mountain Backpack</h2>
+                <span class="product-price">5.400.000<sup>đ</sup></span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 7 -->
+            <div class="product-box">
+                <img src="./Images/Balo7.avif" alt="" class="product-img">
+                <h2 class="product-title">Montsouris Backpack</h2>
+                <span class="product-price">3.600.000<sup>đ</sup></span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 8 -->
+            <div class="product-box">
+                <img src="./Images/Balo8.avif" alt="" class="product-img">
+                <h2 class="product-title">Discovery Backpack PM</h2>
+                <span class="product-price">23.900.000<sup>đ</sup></span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- link js  -->
+    <script src="./JS/Ao.js"></script>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-menu">
+                <h3>DỊCH VỤ KHÁCH HÀNG</h3>
+                <ul>
+                    <li><a href="Ve-lana.html">Chất liệu sản phẩm</a></li>
+                    <li><a href="Ve-lana.html">Câu hỏi thường gặp</a></li>
+                    <li><a href="Ve-lana.html">Chính sách đổi trả</a></li>
+                    <li><a href="Ve-lana.html">Chính sách bảo mật</a></li>
+                    <li><a href="Ve-lana.html">Chính sách giao hàng</a></li>
+                    <li><a href="Ve-lana.html">Điều khoản dịch vụ</a></li>
+                    <li><a href="Ve-lana.html">Hướng dẫn Mua hàng &amp; Hướng dẫn Bảo quản</a></li>
+                    <li><a href="Ve-lana.html">Hướng dẫn chọn size</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-menu">
+                <h3>DANH MỤC SẢN PHẨM</h3>
+                <ul>
+                    <li><a href="/collections/all">Tất cả sản phẩm</a></li>
+                    <li><a href="Ao.html">Áo</a></li>
+                    <li><a href="Quan.html">Quần</a></li>
+                    <li><a href="Balo.html">Ba lô</a></li>
+                    <li><a href="Phukien.html">Phụ kiện</a></li>
+                    <li><a href="../DO_AN_WEB/lichsugiaodich/lichsugiaodich.php" >Lịch sử giao dịch </a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <p>Địa chỉ: 497, P16, Quận Gò Vấp, TP.HCM</p>
+                <p>Số điện thoại: <a href="tel:0775571158">0775571158</a></p>
+                <p>Email: <a href="mailto:lanaofficial.vn">lanaofficial.vn</a></p>
+                <a href="https://www.facebook.com/lanaofficial.vn" target="_blank" title="Theo dõi Facebook LANA"><img src="./Images/facebook.png" width="40" height="40" alt="facebook"></a>
+                <a href="https://zalo.me/g/ordqrg369" target="_blank" title="Theo dõi Zalo LANA"><img src="./Images/zalo.jpg" width="40" height="40" alt="zalo"></a>
+                <a href="https://www.instagram.com/lanaofficial.vn/" target="_blank" title="Theo dõi instagram LANA"><img src="./Images/instagram.png" width="40" height="40" alt="zalo"></a>
+        </div>
+            </div>
+        </div>
+    </footer>
+    <button id="myBtn" title="Lên đầu trang">
+        <img src='./Images/Button1.png' title='lên đầu trang' width='50px'/></button>
+    <script>
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+     
+    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    document.getElementById("myBtn").style.display = "block";
+    } else {
+    document.getElementById("myBtn").style.display = "none";
+    }
+    }
+     
+    document.getElementById('myBtn').addEventListener("click", function(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    });
+    </script>
